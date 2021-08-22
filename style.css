@@ -1,0 +1,260 @@
+:root {
+  --background-color: #fff;
+  --font-color: #6A7480;
+  --bar-color: #F2F3F5;
+  --border-color: #E3E5E8;
+  --github-color: #6A7480;
+  --github-hover-color: #2E3338;
+  --active-color: #D4D7DD;
+  --active-font-color: #2E3338;
+  --hover-color: #E8EAED;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transition: 0.3s;
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--font-color);
+  font-size: 16px;
+}
+
+/* Container */
+.container {
+  display: flex;
+  max-width: 1640px;
+  min-height: calc(100vh - 60px);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-self: flex-start;
+  gap: 10px;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 35px;
+}
+
+/* Tab */
+.tab {
+  display: flex;
+}
+
+.tab-list {
+  display: flex;
+  width: calc(100vw - 170px);
+  flex-wrap: wrap;
+  background-color: var(--bar-color);
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  min-width: 150px;
+  min-height: 60px;
+  background-color: var(--bar-color);
+  background-image: url('assets/svg/rss-logo.png');
+  background-size: 111px 40px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+}
+
+.tab-item {
+  display: flex;
+  min-height: 60px;
+  flex-grow: 1;  
+  min-width: max-content;
+}
+
+.tab-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+/* Sidebar */
+.sidebar-list {
+  height: 100%;
+  background-color: var(--bar-color);
+}
+
+.sidebar-item {
+  width: 150px;
+  min-height: 65px;
+  padding: 10px 5px 10px 15px;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+/* Card */
+.card {
+  display: block;
+  width: 320px;
+  height: 240px;
+  margin-bottom: 35px;
+  background-color: var(--background-color);
+  border: 1px solid var(--bar-color);
+  border-radius: 2px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card:hover {
+  border: 1px solid var(--border-color);
+}
+
+.card-description {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 60px;
+  padding: 20px 10px 10px;
+  background-color: var(--bar-color);
+}
+
+.github {
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  padding-left: 32px;
+  background-image: url('assets/svg/github.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-decoration: none;
+  color: var(--github-color);
+  cursor: pointer;
+}
+
+.card:hover .github {
+  color: var(--github-hover-color);
+}
+
+.card-image {
+  position: relative;
+  width: 320px;
+  height: 180px;
+  background-size: 103% 100%;
+  background-position: center top;
+  transition: 0.75s;
+  cursor: pointer;
+}
+
+.card:hover .card-image {
+  filter: brightness(0.85) contrast(1.15);
+  background-size: 113% 110%;
+}
+
+/* Skills */
+.skill {
+  display: flex;
+}
+
+.html,
+.css,
+.js,
+.sass,
+.react,
+.en,
+.node {
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  padding: 0 10px;
+  margin: 8px 0 0px 5px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.html {
+  background-color: #E74C3C;
+}
+
+.css {
+  background-color: #206694;
+}
+
+.js {
+  background-color: #F1C40F;
+  font-weight: 400;
+}
+
+.sass {
+  background-color: #9B59B6;
+}
+
+.react {
+  background-color: #3498DB;
+  font-weight: 400;
+}
+
+.en {
+  background-color: #002379;
+}
+
+.node {
+  background-color: #2ECC71;
+}
+
+.sidebar-item.active,
+.tab-item.active,
+.tab-link.active {
+  background-color: var(--active-color);
+  color: var(--active-font-color);
+}
+
+.sidebar-item:hover,
+.tab-item:hover {
+  background-color: var(--hover-color);
+}
+
+.dark-mode {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 64px;
+  height: 64px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url("assets/svg/dark-mode.png");
+  background-size: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Dark theme */
+.logo.dark {
+  background-image: url('assets/svg/rss-logo-white.png');
+}
+
+.dark-mode.dark {
+  background-image: url("assets/svg/dark-mode-white.png");
+}
+
+.github.dark {
+  background-image: url('assets/svg/github-white.svg');
+}
