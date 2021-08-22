@@ -56,7 +56,7 @@ function createCards() {
     card.classList.add('card');
     const cardImage = document.createElement('div');
     cardImage.classList.add('card-image');
-    cardImage.style.backgroundImage = `url("assets/img/${state.stage}/${state.task}/${index}.jpg")`;
+    cardImage.style.backgroundImage = `url("assets/img/${state.stage}/${state.task}/${index}_result.webp")`;
     card.append(cardImage);
     const cardDescription = document.createElement('div');
     cardDescription.classList.add('card-description');
