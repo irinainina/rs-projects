@@ -1,4 +1,79 @@
 const projects = {
+  "2021q3": {
+    taskList: [{
+      name: "CV",
+      link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md"
+    }],
+    "CV": {
+      skills: ["html", "css"],
+      tasks: [{
+          link: "https://alisabox.github.io/rsschool-cv/",
+          github: "alisabox"
+        },
+        {
+          link: "https://dmitryhordyna.github.io/rsschool-cv/",
+          github: "dmitryhordyna"
+        },
+        {
+          link: "https://annavoloshina.github.io/rsschool-cv/",
+          github: "annavoloshina"
+        },
+        {
+          link: "https://svetlanadekt.github.io/rsschool-cv/",
+          github: "svetlanadekt"
+        },
+        {
+          link: "https://mserykh.github.io/rsschool-cv/",
+          github: "mserykh"
+        },
+        {
+          link: "https://nikita-resh.github.io/rsschool-cv/",
+          github: "nikita-resh"
+        },
+        {
+          link: "https://serhii-aha.github.io/rsschool-cv/",
+          github: "serhii-aha"
+        },
+        {
+          link: "https://themrcrowley.github.io/rsschool-cv/",
+          github: "themrcrowley"
+        },
+        {
+          link: "https://mykola-gataylo.github.io/rsschool-cv/",
+          github: "mykola-gataylo"
+        },
+        {
+          link: "https://petr9ra.github.io/rsschool-cv/",
+          github: "petr9ra"
+        },
+        {
+          link: "https://vitalisantalau.github.io/rsschool-cv/",
+          github: "vitalisantalau"
+        },
+        {
+          link: "https://ellino1s.github.io/rsschool-cv/",
+          github: "ellino1s"
+        },
+        {
+          link: "https://kusakinvova.github.io/rsschool-cv/",
+          github: "kusakinvova"
+        },
+        {
+          link: "https://vitttold.github.io/rsschool-cv/",
+          github: "vitttold"
+        },
+        {
+          link: "https://handlewith.github.io/rsschool-cv/",
+          github: "handlewith"
+        },
+        {
+          link: "https://tsakunova.github.io/rsschool-cv/",
+          github: "tsakunova"
+        }
+      ]
+    }
+  },
+
   "2021q1": {
     taskList: [{
         name: "CV",
@@ -6,7 +81,7 @@ const projects = {
       },
       {
         name: "Wildlife",
-        link: "https: //rolling-scopes-school.github.io/stage0/#/stage0/tasks/wildlife"
+        link: "https://rolling-scopes-school.github.io/stage0/#/stage0/tasks/wildlife"
       },
       {
         name: "Оnline-zoo",
@@ -298,7 +373,7 @@ const projects = {
       ]
     },
     "Match-Match Game": {
-      skills: ["html", "css", "js", "node"],
+      skills: ["html", "css", "js"],
       tasks: [{
           link: "https://daniel-ki-match-match-game.netlify.app/",
           github: "daniel-ki3"
@@ -502,81 +577,6 @@ const projects = {
         {
           link: "https://rolling-scopes-school.github.io/jxmjuice-JSFE2021Q1/codejam-chess/",
           github: "jxmjuice"
-        }
-      ]
-    }
-  },
-
-  "2021q3": {
-    taskList: [{
-      name: "CV",
-      link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md"
-    }],
-    "CV": {
-      skills: ["html", "css"],
-      tasks: [{
-          link: "https://alisabox.github.io/rsschool-cv/",
-          github: "alisabox"
-        },
-        {
-          link: "https://dmitryhordyna.github.io/rsschool-cv/",
-          github: "dmitryhordyna"
-        },
-        {
-          link: "https://svetlanadekt.github.io/rsschool-cv/",
-          github: "svetlanadekt"
-        },
-        {
-          link: "https://svetlanadekt.github.io/rsschool-cv/",
-          github: "svetlanadekt"
-        },
-        {
-          link: "https://mserykh.github.io/rsschool-cv/",
-          github: "mserykh"
-        },
-        {
-          link: "https://nikita-resh.github.io/rsschool-cv/",
-          github: "nikita-resh"
-        },
-        {
-          link: "https://serhii-aha.github.io/rsschool-cv/",
-          github: "serhii-aha"
-        },
-        {
-          link: "https://themrcrowley.github.io/rsschool-cv/",
-          github: "themrcrowley"
-        },
-        {
-          link: "https://mykola-gataylo.github.io/rsschool-cv/",
-          github: "mykola-gataylo"
-        },
-        {
-          link: "https://petr9ra.github.io/rsschool-cv/",
-          github: "petr9ra"
-        },
-        {
-          link: "https://vitalisantalau.github.io/rsschool-cv/",
-          github: "vitalisantalau"
-        },
-        {
-          link: "https://ellino1s.github.io/rsschool-cv/",
-          github: "ellino1s"
-        },
-        {
-          link: "https://kusakinvova.github.io/rsschool-cv/",
-          github: "kusakinvova"
-        },
-        {
-          link: "https://vitttold.github.io/rsschool-cv/",
-          github: "vitttold"
-        },
-        {
-          link: "https://handlewith.github.io/rsschool-cv/",
-          github: "handlewith"
-        },
-        {
-          link: "https://tsakunova.github.io/rsschool-cv/",
-          github: "tsakunova"
         }
       ]
     }

@@ -1,4 +1,5 @@
 import projects from './data.js';
+
 const tabList = document.querySelector('.tab-list');
 const sidebarList = document.querySelector('.sidebar-list');
 const cardContainer = document.querySelector('.card-container');
@@ -11,11 +12,34 @@ let state = {
 /* Dark theme */
 const darkMode = document.querySelector('.dark-mode');
 const logo = document.querySelector('.logo');
-const githubIcons = document.querySelectorAll('.github');
-let root = document.documentElement;
+const root = document.documentElement;
 let isDark = false;
 
+const variables = {
+  '--background-color': ['#36393F', '#fff'],
+  '--font-color': ['#B9BBBE', '#6A7480'],
+  '--bar-color': ['#2F3136', '#F2F3F5'],
+  '--border-color': ['#36393F', '#E3E5E8'],
+  '--github-color': ['#B9BBBE', '#6A7480'],
+  '--github-hover-color': ['#DCDDDE', '#2E3338'],
+  '--active-color': ['#202225', '#D4D7DD'],
+  '--active-font-color': ['#DCDDDE', '#2E3338'],
+  '--hover-color': ['#2a2c30', '#E8EAED'], 
+}
 
+darkMode.addEventListener('click', () => {
+  isDark = !isDark;
+  darkMode.classList.toggle('dark');
+  logo.classList.toggle('dark');
+  createCards();
+  for (let key in variables) {
+    if(isDark) {
+      root.style.setProperty(key, variables[key][0]);
+    } else {
+      root.style.setProperty(key, variables[key][1]);
+    }
+  }
+});
 
 function createTabs() {
   tabList.innerHTML = '';
@@ -28,6 +52,7 @@ function createTabs() {
     const a = document.createElement('a');
     a.classList.add('tab-link');
     a.href = el.link;
+    a.target = '_blank';
     a.textContent = el.name;
     li.append(a);
     tabList.append(li);
@@ -54,12 +79,15 @@ function createCards() {
     card.href = el.link;
     card.target = '_blank';
     card.classList.add('card');
+
     const cardImage = document.createElement('div');
     cardImage.classList.add('card-image');
     cardImage.style.backgroundImage = `url("assets/img/${state.stage}/${state.task}/${index}_result.webp")`;
     card.append(cardImage);
+
     const cardDescription = document.createElement('div');
     cardDescription.classList.add('card-description');
+
     const github = document.createElement('a');
     if(el.github && el.github !== "team") {
       github.href = `https://github.com/${el.github}`;
@@ -71,6 +99,7 @@ function createCards() {
     }
     github.textContent = el.github;
     cardDescription.append(github);
+
     const skills = createSkills();
     cardDescription.append(skills);
     card.append(cardDescription);
@@ -87,6 +116,10 @@ sidebarList.addEventListener('click', function (event) {
     state.task = projects[event.target.textContent].taskList[0].name;
     createTabs();
     createCards();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
   }
 });
 
@@ -98,33 +131,9 @@ tabList.addEventListener('click', function (event) {
     event.target.classList.add('active');
     state.task = event.target.textContent;
     createCards();
-  }
-});
-
-darkMode.addEventListener('click', () => {
-  isDark = !isDark;
-  darkMode.classList.toggle('dark');
-  logo.classList.toggle('dark');
-  createCards();
-  if(isDark) {
-    root.style.setProperty('--background-color', '#36393F');
-    root.style.setProperty('--font-color', '#B9BBBE');
-    root.style.setProperty('--bar-color', '#2F3136');
-    root.style.setProperty('--border-color', '#2a2c30');
-    root.style.setProperty('--github-color', '#B9BBBE');
-    root.style.setProperty('--github-hover-color', '#DCDDDE');
-    root.style.setProperty('--active-color', '#202225');
-    root.style.setProperty('--active-font-color', '#DCDDDE');
-    root.style.setProperty('--hover-color', '#2a2c30');
-  } else {
-    root.style.setProperty('--background-color', '#fff');
-    root.style.setProperty('--font-color', '#6A7480');
-    root.style.setProperty('--bar-color', '#F2F3F5');
-    root.style.setProperty('--border-color', '#E3E5E8');
-    root.style.setProperty('--github-color', '#6A7480');
-    root.style.setProperty('--github-hover-color', '#2E3338');
-    root.style.setProperty('--active-color', '#D4D7DD');
-    root.style.setProperty('--active-font-color', '#2E3338');
-    root.style.setProperty('--hover-color', '#E8EAED');
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
   }
 });

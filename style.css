@@ -163,7 +163,7 @@ body {
 }
 
 .card:hover .card-image {
-  filter: brightness(0.85) contrast(1.15);
+  filter: brightness(0.85) contrast(1.2);
   background-size: 113% 110%;
 }
 
