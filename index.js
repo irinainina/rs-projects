@@ -41,6 +41,19 @@ darkMode.addEventListener('click', () => {
   }
 });
 
+function createSidebar() {
+  for (let key in projects) {
+    const li = document.createElement('li');
+    li.classList.add('sidebar-item');
+    if(key === state.stage) {
+      li.classList.add('active');
+    }
+    li.textContent = key;
+    sidebarList.append(li);
+  }  
+}
+createSidebar();
+
 function createTabs() {
   tabList.innerHTML = '';
   projects[state.stage].taskList.forEach((el, index) => {

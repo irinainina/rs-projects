@@ -2814,6 +2814,22 @@ const projects = {
         {
           link: "https://elaray1.github.io/portfolio/",
           github: "elaray1"
+        },
+        {
+          link: "https://pavel232.github.io/portfolio/",
+          github: "pavel232"
+        },
+        {
+          link: "https://certif.github.io/portfolio/",
+          github: "certif"
+        },
+        {
+          link: "https://victoriasayevich.github.io/portfolio/",
+          github: "victoriasayevich"
+        },
+        {
+          link: "https://sergsmith64.github.io/portfolio/",
+          github: "sergsmith64"
         }
       ]
     },
@@ -2970,6 +2986,22 @@ const projects = {
         {
           link: "https://olys1703.github.io/fancy-weather/",
           github: "olys1703"
+        },
+        {
+          link: "https://lansyfonseka.github.io/weather/",
+          github: "lansyfonseka"
+        },
+        {
+          link: "https://devbiirds-weather.netlify.app/",
+          github: "devbiirds"
+        },
+        {
+          link: "https://moongue-weather.netlify.app/",
+          github: "moongue"
+        },
+        {
+          link: "https://timon4ik2102-fancyweather.netlify.app/",
+          github: "timon4ik2102"
         }
       ]
     },
