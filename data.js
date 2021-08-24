@@ -3,7 +3,20 @@ const projects = {
     taskList: [{
       name: "CV",
       link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md"
-    }],
+    },
+    {
+      name: "Drum Kit",
+      link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30-1.md"
+    },
+    {
+      name: "JS Clock",
+      link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30-1.md"
+    },
+    {
+      name: "Vertical Slider",
+      link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30-3.md"
+    }
+  ],
     "CV": {
       skills: ["html", "css"],
       tasks: [{
@@ -69,6 +82,306 @@ const projects = {
         {
           link: "https://tsakunova.github.io/rsschool-cv/",
           github: "tsakunova"
+        }
+      ]
+    },
+    "Drum Kit": {
+      skills: ["html", "css", "js"],
+      tasks: [{
+          link: "https://rolling-scopes-school.github.io/yuliya-karimova-JSFEPRESCHOOL/js30/",
+          github: "yuliya-karimova"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ts-andrey-JSFEPRESCHOOL/drum-kit/",
+          github: "ts-andrey"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/abrasov-JSFEPRESCHOOL/drum-kit/",
+          github: "abrasov"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/holanad-JSFEPRESCHOOL/drum-kit/",
+          github: "holanad"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/katiadeo-JSFEPRESCHOOL/drum-kit/index.html",
+          github: "katiadeo"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/thirdmadman-JSFEPRESCHOOL/drum-kit/",
+          github: "thirdmadman"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dimiricus-JSFEPRESCHOOL/drum-kit/",
+          github: "dimiricus"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/cptshell-JSFEPRESCHOOL/drum-kit/",
+          github: "cptshell"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kustiks-JSFEPRESCHOOL/drum-kit/",
+          github: "kustiks"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/solpio-JSFEPRESCHOOL/drum-kit/",
+          github: "solpio"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kseniyamelnik-JSFEPRESCHOOL/drum-kit/",
+          github: "kseniyamelnik"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/drum-kit/",
+          github: "nikita-resh"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/h4rb4rd-JSFEPRESCHOOL/drum-kit/",
+          github: "h4rb4rd"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vsmaliakou-JSFEPRESCHOOL/drum-kit/",
+          github: "vsmaliakou"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/olegnikitin75-JSFEPRESCHOOL/drum-kit/",
+          github: "olegnikitin75"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ivanpratasevich-JSFEPRESCHOOL/drum-kit/",
+          github: "ivanpratasevich"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/airmay-hub-JSFEPRESCHOOL/drum-kit/#",
+          github: "airmay-hub"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/uglekiska-JSFEPRESCHOOL/drum-kit/",
+          github: "uglekiska"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/juliachruszczowah-JSFEPRESCHOOL/drum-kit/",
+          github: "juliachruszczowah"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vladimirparmon-JSFEPRESCHOOL/Drumkit/Index.html",
+          github: "vladimirparmon"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kristinabychenok-JSFEPRESCHOOL/drum-kit/",
+          github: "kristinabychenok"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/shastinmax-JSFEPRESCHOOL/drum-kit/",
+          github: "shastinmax"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ixakina-JSFEPRESCHOOL/drum-kit/",
+          github: "ixakina"
+        },
+        {
+          link: "https://dariamalina-drum-kit.netlify.app/",
+          github: "dariamalina"
+        }
+      ]
+    },
+    "JS Clock": {
+      skills: ["html", "css", "js"],
+      tasks: [{
+          link: "https://rolling-scopes-school.github.io/iharvypau-JSFEPRESCHOOL/js-clock/",
+          github: "iharvypau"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/spidervs-JSFEPRESCHOOL/js-clock/",
+          github: "spidervs"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ekaterinashep-JSFEPRESCHOOL/js-clock/#clock",
+          github: "ekaterinashep"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vitalisantalau-JSFEPRESCHOOL/js-clock/",
+          github: "vitalisantalau"
+        },
+        {
+          link: "https://stepback-js-clock.netlify.app/",
+          github: "stepback"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dimas-worker-JSFEPRESCHOOL/js-clock/",
+          github: "dimas-worker"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/sviatoslav-fls-JSFEPRESCHOOL/js-clock/",
+          github: "sviatoslav-fls"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tatsiana-bivoina-JSFEPRESCHOOL/js-clock/",
+          github: "tatsiana-bivoina"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/blackberryid-JSFEPRESCHOOL/js-clock/",
+          github: "blackberryid"
+        },
+        {
+          link: "https://holo-clock.netlify.app/",
+          github: "holo-clock"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/volkovva-JSFEPRESCHOOL/js-clock/",
+          github: "volkovva"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tianika-JSFEPRESCHOOL/js-clock/",
+          github: "tianika"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/al-abramov-JSFEPRESCHOOL/js-clock/",
+          github: "al-abramov"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/sem-chehovich-JSFEPRESCHOOL/js-clock/",
+          github: "sem-chehovich"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/pain4metoo-JSFEPRESCHOOL/js-clock/",
+          github: "pain4metoo"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/alexpodelinskii-JSFEPRESCHOOL/js-clock/",
+          github: "alexpodelinskii"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/fgriff-JSFEPRESCHOOL/js-clock/",
+          github: "fgriff"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/romakha-JSFEPRESCHOOL/js-clock/",
+          github: "romakha"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/igor22-11-JSFEPRESCHOOL/js-clock/",
+          github: "igor22"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/petr9ra-JSFEPRESCHOOL/js-clock/",
+          github: "petr9ra"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dmitryhordyna-JSFEPRESCHOOL/js-clock/",
+          github: "dmitryhordyna"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/jack13only-JSFEPRESCHOOL/js-clock/",
+          github: "jack13only"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/eugeneshatalin-JSFEPRESCHOOL/js-clock/",
+          github: "eugeneshatalin"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tyzikova-JSFEPRESCHOOL/js-clock/",
+          github: "tyzikova"
+        }
+      ]
+    },
+    "Vertical Slider": {
+      skills: ["html", "css", "js"],
+      tasks: [{
+          link: "https://mikaleinik-slider.netlify.app/",
+          github: "mikaleinik"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/chromari-JSFEPRESCHOOL/vertical-slider/",
+          github: "chromari"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dan-tel-JSFEPRESCHOOL/vertical-slider/",
+          github: "dan-tel"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/aabelov2703-JSFEPRESCHOOL/Vertical%20Slider/",
+          github: "aabelov2703"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/liliyavoloshina-JSFEPRESCHOOL/vertical-slider/",
+          github: "liliyavoloshina"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nmakarevich-JSFEPRESCHOOL/vertical-slider/",
+          github: "nmakarevich"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/zhulym-JSFEPRESCHOOL/vertical-slider/",
+          github: "zhulym"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kvadratikk-JSFEPRESCHOOL/vertical-slider/",
+          github: "kvadratikk"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/yuliyaminsk-JSFEPRESCHOOL/vertical-slider/",
+          github: "yuliyaminsk"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/radiance77-JSFEPRESCHOOL/vertical-slider/",
+          github: "radiance77"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vpeacock-JSFEPRESCHOOL/vertical-slider/",
+          github: "vpeacock"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/victoriakochieva-JSFEPRESCHOOL/vertical-slider/",
+          github: "victoriakochieva"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/aliaxeisehiyenia-JSFEPRESCHOOL/vertical-slider/",
+          github: "aliaxeisehiyenia"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/lustojc-JSFEPRESCHOOL/vertical-slider/",
+          github: "lustojc"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/oksana-de-JSFE2021Q1/vertical-slider/",
+          github: "oksana-de"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/makarchiknet-JSFEPRESCHOOL/vertical-slider/",
+          github: "makarchiknet"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/yuriandev-JSFEPRESCHOOL/vertical-slider/",
+          github: "yuriandev"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/maxtarasevich-JSFEPRESCHOOL/vertical-slider/",
+          github: "maxtarasevich"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/leaf08-JSFEPRESCHOOL/vertical-slider/",
+          github: "leaf08"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/super-firefox-JSFEPRESCHOOL/vertical-slider/",
+          github: "super-firefox"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/cyber-kira-JSFEPRESCHOOL/vertical-slider/",
+          github: "cyber-kira"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/jack13only-JSFEPRESCHOOL/vertical-slider/",
+          github: "jack13only"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/andyguit-JSFEPRESCHOOL/vertical-slider/",
+          github: "andyguit"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/uropbm-JSFEPRESCHOOL/vertical-slider/",
+          github: "uropbm"
         }
       ]
     }
