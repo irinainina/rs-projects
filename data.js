@@ -16,6 +16,21 @@ const projects = {
       name: "Vertical Slider",
       link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30-3.md"
     }
+    ,
+    {
+      name: "Custom Video Player",
+      link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30-4.md"
+    }
+    ,
+    {
+      name: "Photofilter",
+      link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30-5.md"
+    }
+    ,
+    {
+      name: "Whack A Mole",
+      link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30-6.md"
+    }
   ],
     "CV": {
       skills: ["html", "css"],
@@ -382,6 +397,178 @@ const projects = {
         {
           link: "https://rolling-scopes-school.github.io/uropbm-JSFEPRESCHOOL/vertical-slider/",
           github: "uropbm"
+        }
+      ]
+    },
+    "Custom Video Player": {
+      skills: ["html", "css", "js"],
+      tasks: [{
+          link: "https://rolling-scopes-school.github.io/jenya-b-JSFEPRESCHOOL/custom-video-player/",
+          github: "jenya-b"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dan-tel-JSFEPRESCHOOL/custom-video-player/#video",
+          github: "dan-tel"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/liliyavoloshina-JSFEPRESCHOOL/custom-video-player/",
+          github: "liliyavoloshina"
+        },
+        {
+          link: "https://azasemey.github.io/custom-video-player/",
+          github: "azasemey"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/blackberryid-JSFEPRESCHOOL/custom-video-player/",
+          github: "blackberryid"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kustiks-JSFEPRESCHOOL/custom-video-player/",
+          github: "kustiks"
+        },
+        {
+          link: "https://videoplayer-alekseyvy.netlify.app/",
+          github: "alekseyvy"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/aleksander-true-JSFEPRESCHOOL/video-player/",
+          github: "aleksander"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/al-abramov-JSFEPRESCHOOL/custom-video-player/",
+          github: "al-abramov"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/katiadeo-JSFEPRESCHOOL/custom-video-player/",
+          github: "katiadeo"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/maxtarasevich-JSFEPRESCHOOL/custom-video-player/",
+          github: "maxtarasevich"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/adlergaz-JSFEPRESCHOOL/custom-video-player/",
+          github: "adlergaz"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vpeacock-JSFEPRESCHOOL/custom-video-player/",
+          github: "vpeacock"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/edchekanov-JSFEPRESCHOOL/custom-video-player/",
+          github: "edchekanov"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ts-andrey-JSFEPRESCHOOL/custom-video-player/",
+          github: "ts-andrey"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/lukashkinamarina-JSFEPRESCHOOL/custom-video-player/",
+          github: "lukashkinamarina"
+        }
+      ]
+    },
+    "Photofilter": {
+      skills: ["html", "css", "js"],
+      tasks: [{
+          link: "https://rolling-scopes-school.github.io/nikita-resh-JSFEPRESCHOOL/photo-filter/",
+          github: "nikita-resh"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/chromari-JSFEPRESCHOOL/photofilter/",
+          github: "chromari"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nmakarevich-JSFEPRESCHOOL/photofilter/",
+          github: "nmakarevich"
+        },        
+        {
+          link: "https://rolling-scopes-school.github.io/artyomandreev-JSFEPRESCHOOL/photo-filter/",
+          github: "artyomandreev"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/hauzinski-JSFEPRESCHOOL/photofilter/",
+          github: "hauzinski"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/yuliyaminsk-JSFEPRESCHOOL/photofilter/",
+          github: "yuliyaminsk"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/oksana-de-JSFEPRESCHOOL/photofilter/",
+          github: "oksana-de"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vsmaliakou-JSFEPRESCHOOL/photofilter/",
+          github: "vsmaliakou"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/annaignatova-JSFEPRESCHOOL/js30-photofilter/",
+          github: "annaignatova"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kenor-me-JSFEPRESCHOOL/photofilter/",
+          github: "kenor-me"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/takobigvava-JSFEPRESCHOOL/photfilter/",
+          github: "takobigvava"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vadosdavos-JSFEPRESCHOOL/photo-filter/",
+          github: "vadosdavos"
+        }
+      ]
+    },
+    "Whack A Mole": {
+      skills: ["html", "css", "js"],
+      tasks: [{
+          link: "https://rolling-scopes-school.github.io/mrks77-JSFEPRESCHOOL/whack-a-mole/",
+          github: "mrks77"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tlkv-JSFEPRESCHOOL/whack-a-mole/",
+          github: "tlkv"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/mrak9087-JSFEPRESCHOOL/whack-a-mole/",
+          github: "mrak9087"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/sk8-pl-JSFEPRESCHOOL/whack-a-mole/",
+          github: "sk8-pl"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/jack13only-JSFEPRESCHOOL/whack-a-mole/",
+          github: "jack13only"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nekoguard-JSFEPRESCHOOL/whack-a-mole/",
+          github: "nekoguard"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/anniyak-JSFEPRESCHOOL/whack-a-mole/",
+          github: "anniyak"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kovalivnataliia-JSFEPRESCHOOL/whack-a-mole/",
+          github: "kovalivnataliia"
+        },
+        {
+          link: "https://balin-sv-whack-a-mole.netlify.app/nextlevel",
+          github: "balin-sv"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/aabelov2703-JSFEPRESCHOOL/whack-a-mole/",
+          github: "aabelov2703"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/olegnikitin75-JSFEPRESCHOOL/whack-a-mole/",
+          github: "olegnikitin75"
+        },
+        {
+          link: "https://gomunkool-whack-a-mole.netlify.app/",
+          github: "gomunkool"
         }
       ]
     }

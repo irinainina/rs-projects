@@ -64,7 +64,7 @@ function createTabs() {
     }
     const a = document.createElement('a');
     a.classList.add('tab-link');
-    a.href = el.link;
+    a.href = el.link;    
     a.target = '_blank';
     a.textContent = el.name;
     li.append(a);
