@@ -100,11 +100,14 @@ body {
   background-color: var(--bar-color);
 }
 
-.sidebar-item {
+.sidebar-item a {
+  display: block;
   width: 160px;
   min-height: 65px;
   padding: 10px 5px 10px 15px;
   line-height: 45px;
+  color: var(--font-color);
+  text-decoration: none;
   cursor: pointer;
 }
 

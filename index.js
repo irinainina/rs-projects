@@ -48,7 +48,10 @@ function createSidebar() {
     if(key === state.stage) {
       li.classList.add('active');
     }
-    li.textContent = key;
+    const a = document.createElement('a');
+    a.href = `#${key}`;    
+    a.textContent = key;
+    li.append(a);
     sidebarList.append(li);
   }  
 }

@@ -5,6 +5,10 @@ const projects = {
       link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md"
     },
     {
+      name: "Museum",
+      link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/museum/museum.md"
+    },
+    {
       name: "Drum Kit",
       link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30/js30-1.md"
     },
@@ -97,6 +101,58 @@ const projects = {
         {
           link: "https://tsakunova.github.io/rsschool-cv/",
           github: "tsakunova"
+        }
+      ]
+    },
+    "Museum": {
+      skills: ["html", "css"],
+      tasks: [{
+          link: "https://rolling-scopes-school.github.io/ekaterinashep-JSFEPRESCHOOL/museum/",
+          github: "ekaterinashep"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/fgriff-JSFEPRESCHOOL/museum/",
+          github: "fgriff"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/alexpataman-JSFEPRESCHOOL/museum/",
+          github: "alexpataman"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dimas-worker-JSFEPRESCHOOL/museum/",
+          github: "dimas-worker"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/spidervs-JSFEPRESCHOOL/museum/",
+          github: "spidervs"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/skorbezhartem-JSFEPRESCHOOL/museum/",
+          github: "skorbezhartem"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/lan3945663-JSFEPRESCHOOL/museum/",
+          github: "lan3945663"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/asverq-JSFEPRESCHOOL/museum/",
+          github: "asverq"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/aleksander-true-JSFEPRESCHOOL/museum/",
+          github: "aleksander-true"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/blackberryid-JSFEPRESCHOOL/museum/",
+          github: "blackberryid"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nikeusov-JSFEPRESCHOOL/museum/",
+          github: "nikeusov"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ihar-dev-JSFEPRESCHOOL/museum/",
+          github: "ihar-dev"
         }
       ]
     },
