@@ -1,5 +1,1020 @@
 const projects = {
-  "2021q3": {
+  "PreSchool 2022q1": {
+    taskList: [
+      {
+        name: "CV",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md"
+      },
+      {
+        name: "Portfolio",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio.md"
+      },
+      {
+        name: "Eco Sounds",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-1.md"
+      },
+      {
+        name: "Audio Player",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-2.md"
+      },
+      {
+        name: "Custom Video",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-3.md"
+      },
+      {
+        name: "Random Jokes",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-4.md"
+      },
+      {
+        name: "Image Galery",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-5.md"
+      },
+      {
+        name: "Movie App",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-6.md"
+      },
+      {
+        name: "Tic Tac Toe",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-7.md"
+      },
+      {
+        name: "Memory Game",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-8.md"
+      },
+      {
+        name: "Random Game",
+        link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-9.md"
+      }
+    ],
+    "CV": {
+      skills: ["html", "css"],
+      tasks: [
+        {
+          link: "https://greg-front-end.github.io/rsschool-cv/",
+          github: "greg-front-end"
+        },
+        {
+          link: "https://asya19.github.io/rsschool-cv/",
+          github: "asya19"
+        },
+        {
+          link: "https://dimalepel.github.io/rsschool-cv/",
+          github: "dimalepel"
+        },
+        {
+          link: "https://ichernous94.github.io/rsschool-cv/",
+          github: "ichernous94"
+        },
+        {
+          link: "https://jnik2003.github.io/rsschool-cv/",
+          github: "jnik2003"
+        },
+        {
+          link: "https://mdjeee.github.io/rsschool-cv/",
+          github: "mdjeee"
+        },
+        {
+          link: "https://andreichaika.github.io/rsschool-cv/",
+          github: "andreichaika"
+        },
+        {
+          link: "https://denys-bilonozhko.github.io/rsschool-cv/",
+          github: "denys-bilonozhko"
+        },
+        {
+          link: "https://dixrom.github.io/rsschool-cv/",
+          github: "dixrom"
+        },
+        {
+          link: "https://etozhesady.github.io/rsschool-cv/",
+          github: "etozhesady"
+        },
+        {
+          link: "https://createira.github.io/rsschool-cv/",
+          github: "createira"
+        },
+        {
+          link: "https://dariianikolaieva.github.io/rsschool-cv/",
+          github: "dariianikolaieva"
+        },
+        {
+          link: "https://lireien.github.io/rsschool-cv/",
+          github: "lireien"
+        },
+        {
+          link: "https://mxn42.github.io/rsschool-cv/lite/en/",
+          github: "mxn42"
+        },
+        {
+          link: "https://totgg.github.io/rsschool-cv/",
+          github: "totgg"
+        },
+        {
+          link: "https://zal-lex.github.io/rsschool-cv/",
+          github: "zal-lex"
+        },
+        {
+          link: "https://zelenevskayamarina.github.io/rsschool-cv/",
+          github: "zelenevskayamarina"
+        },
+        {
+          link: "https://geobo.github.io/rsschool-cv/",
+          github: "geobo"
+        },
+        {
+          link: "https://altynai9128.github.io/rsschool-cv/",
+          github: "altynai9128"
+        },
+        {
+          link: "https://marinatripetska.github.io/rsschool-cv/",
+          github: "marinatripetska"
+        },
+        {
+          link: "https://23nadiya.github.io/rsschool-cv/",
+          github: "23nadiya"
+        },
+        {
+          link: "https://advoryan.github.io/rsschool-cv/",
+          github: "advoryan"
+        },
+        {
+          link: "https://gavroshcyril.github.io/rsschool-cv/",
+          github: "gavroshcyril"
+        },
+        {
+          link: "https://kotenkonata.github.io/rsschool-cv/",
+          github: "kotenkonata"
+        }
+      ]
+    },
+    "Portfolio": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://rolling-scopes-school.github.io/tretyakov-a-JSFEPRESCHOOL/portfolio/",
+          github: "tretyakov-a"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/greg-front-end-JSFEPRESCHOOL/portfolio/",
+          github: "greg-front-end"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/egor-dubovik-JSFEPRESCHOOL/portfolio/",
+          github: "egor-dubovik"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/goldmarkol-JSFEPRESCHOOL/portfolio/",
+          github: "goldmarkol"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/mitrofanzxc-JSFEPRESCHOOL/portfolio/",
+          github: "mitrofanzxc"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/pesukarhutg-JSFEPRESCHOOL/portfolio/",
+          github: "pesukarhutg"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/xtcnz181988-JSFEPRESCHOOL/portfolio/",
+          github: "xtcnz181988"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/gricyan-JSFEPRESCHOOL/portfolio/#contacts",
+          github: "gricyan"
+        }
+      ]
+    },
+    "Eco Sounds": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://rolling-scopes-school.github.io/bumble-sakh-JSFEPRESCHOOL/eco-sounds/",
+          github: "bumble-sakh"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/bo-mila-JSFEPRESCHOOL/eco-sounds/",
+          github: "bo-mila"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/radiance77-JSFEPRESCHOOL/eco-sounds/",
+          github: "radiance77"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/anton-evol-JSFEPRESCHOOL/eco-sounds/index.html#0",
+          github: "anton-evol"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dariianikolaieva-JSFEPRESCHOOL/",
+          github: "dariianikolaieva"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/enaterika-JSFEPRESCHOOL/1.1-eco-sounds/",
+          github: "enaterika"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/halina-k-JSFEPRESCHOOL/js30/eco-sounds/",
+          github: "halina-k"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kantor17-JSFEPRESCHOOL/eco-sounds/",
+          github: "kantor17"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/muannna-JSFEPRESCHOOL/eco-sounds/",
+          github: "muannna"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/sanya-frontend-JSFEPRESCHOOL/eco-sounds/",
+          github: "sanya-frontend"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vladislav-cheremisin-JSFEPRESCHOOL/eco-sounds/",
+          github: "vladislav-cheremisin"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/arswift-JSFEPRESCHOOL/js30/eco-sound/",
+          github: "arswift"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/darksidr-JSFEPRESCHOOL/eco-sounds/",
+          github: "darksidr"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/deniswilk-JSFEPRESCHOOL/eco-sounds/",
+          github: "deniswilk"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/flyether-JSFEPRESCHOOL/js30/",
+          github: "flyether"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/marusovalexei-JSFEPRESCHOOL/eco-sounds/",
+          github: "marusovalexei"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/valerykirdey-JSFEPRESCHOOL/js-30/eco-sounds/",
+          github: "valerykirdey"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/5t4b3r-JSFEPRESCHOOL/eco-sounds/",
+          github: "5t4b3r"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/danilahalm-JSFEPRESCHOOL/eco-sounds/",
+          github: "danilahalm"
+        },
+        {
+          link: "https://obraztsov84.github.io/rsschool-js30/",
+          github: "obraztsov84"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kristina2773-JSFEPRESCHOOL/eco-sounds/",
+          github: "kristina2773"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/jackfrost58-JSFEPRESCHOOL/eco-sounds/",
+          github: "jackfrost58"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/eco-sounds/",
+          github: "irudalova"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/idayshi-JSFEPRESCHOOL/js30-1/",
+          github: "idayshi"
+        }
+      ]
+    },
+    "Audio Player": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://astin375-js30-audio-player.netlify.app/",
+          github: "astin375"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vpeacock-JSFEPRESCHOOL/audio-player/",
+          github: "vpeacock"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/pug000-JSFEPRESCHOOL/js30-audio-player/",
+          github: "pug000"
+        },
+        {
+          link: "https://aoiharu1-audio-player.netlify.app/",
+          github: "aoiharu1"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/beajenius-JSFEPRESCHOOL/audioPlayer/",
+          github: "beajenius"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dokahp-JSFEPRESCHOOL/audio-player/",
+          github: "dokahp"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/elsuppo-JSFEPRESCHOOL/audio-player/",
+          github: "elsuppo"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ligalaz-JSFEPRESCHOOL/JS30-1.2-audio-player/",
+          github: "ligalaz"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/laroikin-JSFEPRESCHOOL/audio-player/",
+          github: "laroikin"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/pesukarhutg-JSFEPRESCHOOL/audio-player/",
+          github: "pesukarhutg"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/knnfmx-JSFEPRESCHOOL/audio-player/",
+          github: "knnfmx"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/siskinbird-JSFEPRESCHOOL/music-player/",
+          github: "siskinbird"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/beenar-0-JSFEPRESCHOOL/audio-player/",
+          github: "beenar-0"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/klel-JSFEPRESCHOOL/audio-player/",
+          github: "klel"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/pblcbgomel-JSFEPRESCHOOL/music-player/",
+          github: "pblcbgomel"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/shekhmametyeva-JSFEPRESCHOOL/audio-player/",
+          github: "shekhmametyeva"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/sashajozwiak-JSFEPRESCHOOL/js30-audio-player/",
+          github: "sashajozwiak"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/alexpalx-JSFEPRESCHOOL/audio-player/",
+          github: "alexpalx"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/doragrishaeva-JSFEPRESCHOOL/audio-player/",
+          github: "doragrishaeva"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vvyysotskaya-JSFEPRESCHOOL/audio-player/",
+          github: "vvyysotskaya"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/maslonyam-JSFEPRESCHOOL/audio-player/",
+          github: "maslonyam"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/potipkonikita-JSFEPRESCHOOL/js30_1.2-audio-player/",
+          github: "potipkonikita"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/shikilnar-JSFEPRESCHOOL/audio-player/",
+          github: "shikilnar"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/slava-shchipunov-JSFEPRESCHOOL/js30-audio-player/",
+          github: "slava-shchipunov"
+        }
+      ]
+    },
+    "Custom Video": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://rolling-scopes-school.github.io/frontend200tb-JSFEPRESCHOOL/custom-video/",
+          github: "frontend200tb"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/frontending-JSFEPRESCHOOL/custom-video/",
+          github: "frontending"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/magicwebdev-JSFEPRESCHOOL/custom-video/",
+          github: "magicwebdev"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/anna-tanisheva-JSFEPRESCHOOL/custom-video/",
+          github: "anna-tanisheva"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/rincewizz-JSFEPRESCHOOL/custom-video/",
+          github: "rincewizz"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/amelianceskymusic-JSFEPRESCHOOL/videoplayer/",
+          github: "amelianceskymusic"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tretyakov-a-JSFEPRESCHOOL/custom-video/",
+          github: "tretyakov-a"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/greysar-JSFEPRESCHOOL/custom-video/",
+          github: "greysar"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ilyashkvalniy-JSFEPRESCHOOL/js30-videoplayer/",
+          github: "ilyashkvalniy"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/drdramen-JSFEPRESCHOOL/custom-video/",
+          github: "drdramen"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/gavrilenkoartem038-JSFEPRESCHOOL/custom-video/",
+          github: "gavrilenkoartem038"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nozeil-JSFEPRESCHOOL/portfolio/#video",
+          github: "nozeil"
+        }
+      ]
+    },
+    "Random Jokes": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://rolling-scopes-school.github.io/alexpalx-JSFEPRESCHOOL/random-jokes/",
+          github: "alexpalx"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/helgapetrovna-JSFEPRESCHOOL/js30-random-jokes/",
+          github: "helgapetrovna"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/veronika2811-JSFEPRESCHOOL/random-jokes/",
+          github: "veronika2811"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/irudalova-JSFEPRESCHOOL/random-jokes/",
+          github: "irudalova"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/yar4ick-JSFEPRESCHOOL/random-jokes/",
+          github: "yar4ick"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/pesukarhutg-JSFEPRESCHOOL/random-jokes/",
+          github: "pesukarhutg"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/jnik2003-JSFEPRESCHOOL/random-jokes/",
+          github: "jnik2003"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/polivodichka-JSFEPRESCHOOL/random-jokes/",
+          github: "polivodichka"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ansee66-JSFEPRESCHOOL/random-jokes/",
+          github: "ansee66"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/arkadz-JSFEPRESCHOOL/random-jokes/",
+          github: "arkadz"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ilya2502-JSFEPRESCHOOL/js30-2-random-jokes/",
+          github: "ilya2502"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/karcherotops-JSFEPRESCHOOL/random-jokes/",
+          github: "karcherotops"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/oleshkevicha-JSFEPRESCHOOL/random-jokes/",
+          github: "oleshkevicha"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vnln-JSFEPRESCHOOL/random-jokes/",
+          github: "vnln"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/wiijoy-JSFEPRESCHOOL/random-jokes/",
+          github: "wiijoy"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/totgg-JSFEPRESCHOOL/random-jokes/",
+          github: "totgg"
+        }
+      ]
+    },
+    "Image Galery": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://rolling-scopes-school.github.io/shekhmametyeva-JSFEPRESCHOOL/image-galery/",
+          github: "shekhmametyeva"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vpeacock-JSFEPRESCHOOL/image-gallery/",
+          github: "vpeacock"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/lidachk-JSFEPRESCHOOL/image-galery/",
+          github: "lidachk"
+        },
+        {
+          link: "https://salamatinlefff.github.io/image-gallery/",
+          github: "salamatinlefff"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tatiana-shylovich-JSFEPRESCHOOL/image-gallery/",
+          github: "tatiana-shylovich"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/beajenius-JSFEPRESCHOOL/imagegalery/",
+          github: "beajenius"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ephedrini1-JSFEPRESCHOOL/image-gallery/",
+          github: "ephedrini1"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/mariakravchenko0-JSFEPRESCHOOL/image-galery/",
+          github: "mariakravchenko0"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/shpuntovkirill-JSFEPRESCHOOL/image-gallery/",
+          github: "shpuntovkirill"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vadimsedelkin-JSFEPRESCHOOL/image-galery/",
+          github: "vadimsedelkin"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ywvv-JSFEPRESCHOOL/image-galery/",
+          github: "ywvv"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/alexandrklychnikov-JSFEPRESCHOOL/image-gallery/",
+          github: "alexandrklychnikov"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/carite-sapientis-JSFEPRESCHOOL/image-gallery/",
+          github: "carite-sapientis"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/diana2886-JSFEPRESCHOOL/image-galery/",
+          github: "diana2886"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dmitrykaliasinski-JSFEPRESCHOOL/image-galery/",
+          github: "dmitrykaliasinski"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/iamkda-q-JSFEPRESCHOOL/js30_2.2-image-galery/",
+          github: "iamkda-q"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kingerburg-JSFEPRESCHOOL/image-galery/",
+          github: "kingerburg"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/maska6293-JSFEPRESCHOOL/image-galery/",
+          github: "maska6293"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nikonovao-JSFEPRESCHOOL/image-galery/",
+          github: "nikonovao"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nos64-JSFEPRESCHOOL/image-galery/",
+          github: "nos64"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/pesukarhutg-JSFEPRESCHOOL/image-gallery/",
+          github: "pesukarhutg"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/shevelevbv-JSFEPRESCHOOL/image-galery/",
+          github: "shevelevbv"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/evgen7e-JSFEPRESCHOOL/image-galery/",
+          github: "evgen7e"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/seagirl1110-JSFEPRESCHOOL/image-galery/",
+          github: "seagirl1110"
+        }
+      ]
+    },
+    "Movie App": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://rolling-scopes-school.github.io/bo-mila-JSFEPRESCHOOL/movie-app/",
+          github: "bo-mila"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dokahp-JSFEPRESCHOOL/movie-app/",
+          github: "dokahp"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/drdramen-JSFEPRESCHOOL/movie-app/",
+          github: "drdramen"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/makrakvladislav-JSFEPRESCHOOL/movie-app/",
+          github: "makrakvladislav"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/maslonyam-JSFEPRESCHOOL/movie-app/",
+          github: "maslonyam"
+        },
+        {
+          link: "https://egor-dubovik.github.io/cinemaSite/",
+          github: "egor-dubovik"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/anton-evol-JSFEPRESCHOOL/movie-app/",
+          github: "anton-evol"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/maxomeleneckii-JSFEPRESCHOOL/movie-app/",
+          github: "maxomeleneckii"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/musoidus-JSFEPRESCHOOL/movie-app/",
+          github: "musoidus"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/outlaw0-JSFEPRESCHOOL/js30-2.3-movie-app/",
+          github: "outlaw0"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/akana1-JSFEPRESCHOOL/movie-app/",
+          github: "akana1"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/berserkbat-JSFEPRESCHOOL/movie-app/",
+          github: "berserkbat"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ivanmakarishchev-JSFEPRESCHOOL/movie-app/",
+          github: "ivanmakarishchev"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kuraini-JSFEPRESCHOOL/movie-app/",
+          github: "kuraini"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/mareedez-JSFEPRESCHOOL/movieapp/",
+          github: "mareedez"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/slava-shchipunov-JSFEPRESCHOOL/movie-app/",
+          github: "slava-shchipunov"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tatisap-JSFEPRESCHOOL/movie-app/",
+          github: "tatisap"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tretyakov-a-JSFEPRESCHOOL/movie-app/",
+          github: "tretyakov-a"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vadimhmys-JSFEPRESCHOOL/movieapp/",
+          github: "vadimhmys"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/seiumu-JSFEPRESCHOOL/moviecollection/",
+          github: "seiumu"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/laroikin-JSFEPRESCHOOL/movie-app/",
+          github: "laroikin"
+        },
+        {
+          link: "https://dariianikolaieva-movie-app.netlify.app/",
+          github: "dariianikolaieva"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/thorsangervanet-JSFEPRESCHOOL/movie-app/",
+          github: "thorsangervanet"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/alexanderkrasovskiy-JSFEPRESCHOOL/movie-app/",
+          github: "alexanderkrasovskiy"
+        }
+      ]
+    },
+    "Tic Tac Toe": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://rolling-scopes-school.github.io/totgg-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "totgg"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/lexxby-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "lexxby"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/pesukarhutg-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "pesukarhutg"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/al-eks-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "al-eks"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/aliseiko-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "aliseiko"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/alitalia60-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "alitalia60"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/advoryan-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "advoryan"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/siskinbird-JSFEPRESCHOOL/tic-tac-toy/",
+          github: "siskinbird"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/serjslastnikov-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "serjslastnikov"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/shpikls-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "shpikls"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dmitrykaliasinski-JSFEPRESCHOOL/tictactoe/",
+          github: "dmitrykaliasinski"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/stqpro-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "stqpro"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/bittersweet-girl-JSFEPRESCHOOL/js30.3.1-tic-tac-toe/",
+          github: "bittersweet-girl"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/lisadobruk-JSFEPRESCHOOL/JS30-tic-tac-toe/",
+          github: "lisadobruk"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/rarity110-JSFEPRESCHOOL/tic-tac/",
+          github: "rarity110"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/antonsergeev-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "antonsergeev"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/julia-itcourse-JSFEPRESCHOOL/js-30-tic-tac-toe/",
+          github: "julia-itcourse"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kosirina-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "kosirina"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/yuriiboltukov-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "yuriiboltukov"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/antiqqt-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "antiqqt"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ligalaz-JSFEPRESCHOOL/JS-30-3.3-TicTacToe/",
+          github: "ligalaz"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/maska6293-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "maska6293"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/broiller-JSFEPRESCHOOL/js30-tic-tac-toe/",
+          github: "broiller"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kybikn-JSFEPRESCHOOL/tic-tac-toe/",
+          github: "kybikn"
+        }
+      ]
+    },
+    "Memory Game": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://rolling-scopes-school.github.io/beenar-0-JSFEPRESCHOOL/memory-game/",
+          github: "beenar-0"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/hamsilver-JSFEPRESCHOOL/memory-game/",
+          github: "hamsilver"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/klel-JSFEPRESCHOOL/memory-game/",
+          github: "klel"
+        },
+        {
+          link: "https://dariianikolaieva-games.netlify.app/index.html",
+          github: "dariianikolaieva"
+        },
+        {
+          link: "https://rakerunner2021.github.io/memory-game/",
+          github: "rakerunner2021"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/thorsangervanet-JSFEPRESCHOOL/memory-game/",
+          github: "thorsangervanet"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/doragrishaeva-JSFEPRESCHOOL/memory-game/",
+          github: "doragrishaeva"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/der-thun-JSFEPRESCHOOL/memory-game/",
+          github: "der-thun"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/verbena336-JSFEPRESCHOOL/memory-game/",
+          github: "verbena336"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/marina-tech-dot-JSFEPRESCHOOL/memory-game/",
+          github: "marina-tech-dot"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/mynk-mynk-JSFEPRESCHOOL/memory-cards/",
+          github: "mynk-mynk"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nos64-JSFEPRESCHOOL/memory-game/",
+          github: "nos64"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/zzmeyz89-JSFEPRESCHOOL/memory-game/",
+          github: "zzmeyz89"
+        },
+        {
+          link: "https://ps0m.github.io/Memory-Game/",
+          github: "ps0m"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/anastasiall-JSFEPRESCHOOL/js30/memory-game/",
+          github: "anastasiall"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/zem41k-JSFEPRESCHOOL/memory-game/",
+          github: "zem41k"
+        },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // }
+      ]
+    },
+    "Random Game": {
+      skills: ["html", "css", "js"],
+      tasks: [
+        {
+          link: "https://rolling-scopes-school.github.io/dmitry-shul-JSFEPRESCHOOL/random-game/",
+          github: "dmitry-shul"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dyexplode-JSFEPRESCHOOL/random-game/",
+          github: "dyexplode"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tav25-JSFEPRESCHOOL/random-game/",
+          github: "tav25"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/alexanderbychyk-JSFEPRESCHOOL/random-game/",
+          github: "alexanderbychyk"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/atlasshd-JSFEPRESCHOOL/random-game/",
+          github: "atlasshd"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/dokahp-JSFEPRESCHOOL/random-game/",
+          github: "dokahp"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/musoidus-JSFEPRESCHOOL/sudoku/",
+          github: "musoidus"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ardoreast-JSFEPRESCHOOL/random-game/",
+          github: "ardoreast"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/seiumu-JSFEPRESCHOOL/game/",
+          github: "seiumu"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/tretyakov-a-JSFEPRESCHOOL/random-game/",
+          github: "tretyakov-a"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vnln-JSFEPRESCHOOL/random-game/",
+          github: "vnln"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/pokolga-JSFEPRESCHOOL/game-wordly/",
+          github: "pokolga"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/turn2river-JSFEPRESCHOOL/js-random-game/",
+          github: "turn2river"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/muannna-JSFEPRESCHOOL/rick-and-morty/",
+          github: "muannna"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/aleg3000-JSFEPRESCHOOL/random-game/",
+          github: "aleg3000"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/freemandb-JSFEPRESCHOOL/random-game/",
+          github: "freemandb"
+        },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // },
+        // {
+        //   link: "",
+        //   github: ""
+        // }
+      ]
+    }
+  },
+  "PreSchool 2021q3": {
     taskList: [{
       name: "CV",
       link: "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md"

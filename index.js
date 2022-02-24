@@ -5,7 +5,7 @@ const sidebarList = document.querySelector('.sidebar-list');
 const cardContainer = document.querySelector('.card-container');
 
 let state = {
-  stage: '2021q3',
+  stage: 'PreSchool 2022q1',
   task: 'CV',
 };
 
