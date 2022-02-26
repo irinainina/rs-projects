@@ -1013,7 +1013,7 @@ const projects = {
         },
         {
           link: "https://sharp-stonebraker-1fa35c.netlify.app/",
-          github: ""
+          github: "PavelTitov16"
         },
         {
           link: "https://rolling-scopes-school.github.io/amelianceskymusic-JSFEPRESCHOOL/random-game/",
