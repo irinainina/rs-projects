@@ -878,38 +878,54 @@ const projects = {
           link: "https://rolling-scopes-school.github.io/zem41k-JSFEPRESCHOOL/memory-game/",
           github: "zem41k"
         },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // }
+        {
+          link: "https://rolling-scopes-school.github.io/daria-tep-JSFEPRESCHOOL/memory-game/",
+          github: "daria-tep"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/madkorney-JSFEPRESCHOOL/memory-game/",
+          github: "madkorney"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/elenabyc-JSFEPRESCHOOL/memory-game/",
+          github: "elenabyc"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/lilithprimary-JSFEPRESCHOOL/memory-game/",
+          github: "lilithprimary"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/oxxol-JSFEPRESCHOOL/memory-game/",
+          github: "oxxol"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/polivodichka-JSFEPRESCHOOL/memory-game/",
+          github: "polivodichka"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/wiijoy-JSFEPRESCHOOL/memory-game/",
+          github: "wiijoy"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/mkachalko-JSFEPRESCHOOL/js30/memory-game/",
+          github: "mkachalko"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/andrewkarev-JSFEPRESCHOOL/memory-game/",
+          github: "andrewkarev"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ilya2502-JSFEPRESCHOOL/js30-3-memory-game/",
+          github: "ilya2502"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/drdramen-JSFEPRESCHOOL/memory-game/",
+          github: "drdramen"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/kritskaya-JSFEPRESCHOOL/js30-memory-game/",
+          github: "kritskaya"
+        }
       ]
     },
     "Random Game": {
@@ -979,38 +995,38 @@ const projects = {
           link: "https://rolling-scopes-school.github.io/freemandb-JSFEPRESCHOOL/random-game/",
           github: "freemandb"
         },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // },
-        // {
-        //   link: "",
-        //   github: ""
-        // }
+        {
+          link: "https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/SpaceInvaders/",
+          github: "nikolaykovzik"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/wiijoy-JSFEPRESCHOOL/2048/",
+          github: "wiijoy"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/foxtrotkilomike-JSFEPRESCHOOL/random-game/",
+          github: "foxtrotkilomike"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/m0rl0ck-JSFEPRESCHOOL/random-game/",
+          github: "m0rl0ck"
+        },
+        {
+          link: "https://sharp-stonebraker-1fa35c.netlify.app/",
+          github: ""
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/amelianceskymusic-JSFEPRESCHOOL/random-game/",
+          github: "amelianceskymusic"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/lidachk-JSFEPRESCHOOL/random-game/",
+          github: "lidachk"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/ne-hi-bye-JSFEPRESCHOOL/js30v3-coder/",
+          github: "ne-hi-bye"
+        }
       ]
     }
   },
