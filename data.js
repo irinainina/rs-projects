@@ -434,8 +434,56 @@ const projects = {
           github: "gavrilenkoartem038"
         },
         {
-          link: "https://rolling-scopes-school.github.io/nozeil-JSFEPRESCHOOL/portfolio/#video",
-          github: "nozeil"
+          link: "https://rolling-scopes-school.github.io/kuraini-JSFEPRESCHOOL/custom-video/",
+          github: "kuraini"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/marharytak-JSFEPRESCHOOL/custom-video/",
+          github: "marharytak"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/vladimirk33-JSFEPRESCHOOL/custom-video/",
+          github: "vladimirk33"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/a-lyona-JSFEPRESCHOOL/custom-video/",
+          github: "a-lyona"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/maiklshetinin-JSFEPRESCHOOL/custom-video/",
+          github: "maiklshetinin"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/nadya1311-JSFEPRESCHOOL/custom-video/",
+          github: "nadya1311"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/chagins-JSFEPRESCHOOL/custom-video/",
+          github: "chagins"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/hospelthiv-JSFEPRESCHOOL/custom-video/",
+          github: "hospelthiv"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/julia-buraya-JSFEPRESCHOOL/custom-video/",
+          github: "julia-buraya"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/lanavladi-JSFEPRESCHOOL/custom-video/",
+          github: "lanavladi"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/sanya-frontend-JSFEPRESCHOOL/custom-video/",
+          github: "sanya-frontend"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/mishalapa-JSFEPRESCHOOL/custom-video/",
+          github: "mishalapa"
+        },
+        {
+          link: "https://rolling-scopes-school.github.io/devfariz-JSFEPRESCHOOL/custom-video/",
+          github: "devfariz"
         }
       ]
     },
